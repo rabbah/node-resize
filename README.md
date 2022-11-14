@@ -1,0 +1,1 @@
+A simple serverless function that resizes an image and uploads it to DigitalOcean Spaces.

@@ -1,0 +1,12 @@
+packages:
+  - name: processImage
+    actions:
+      - name: resize
+        environment:
+          SPACES_ENDPOINT: "${SPACES_ENDPOINT}"
+          SPACES_NAME: "${SPACES_NAME}"
+          SPACES_KEY: "${SPACES_KEY}"
+          SPACES_SECRET: "${SPACES_SECRET}"
+        web: "raw"
+        limits: 
+          timeout: 60000
