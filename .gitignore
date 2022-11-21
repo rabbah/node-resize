@@ -1,3 +1,4 @@
-*.env
+.env
+.DS_Store
+.deployed
 node_modules/
-*.DS_Store
