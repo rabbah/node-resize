@@ -4,14 +4,18 @@
     "namespace": "fn-eff280dc-a931-4e00-aa4c-1171064a68f1",
     "packageVersions": {
       "processImage": {
-        "version": "0.0.10",
-        "digest": "8d83134ab3ba968148cc7da5ebb6a7afaf08cd2e709d10b2da87477514514d05"
+        "version": "0.0.19",
+        "digest": "ef42ea1e9327514ede72ca92a26f3211c5b240839cfc42ed0b250adad5bcdb01"
       }
     },
     "actionVersions": {
       "processImage/resize": {
-        "version": "0.0.10",
-        "digest": "19212704311ab1b64f25f40167388f2af1bb65ef5ed86ee7d5d2303ca1547449"
+        "version": "0.0.19",
+        "digest": "09b074f885b4da25d10e63b7c7b36316366ae56c047436fc549f9928d78a4ce4"
+      },
+      "processImage/upload": {
+        "version": "0.0.9",
+        "digest": "b363c37701e0bb802aa184b36a57ee1d931b82412d977275ef37cb34bc29d926"
       }
     },
     "webHashes": {}

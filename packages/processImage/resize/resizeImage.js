@@ -1,12 +1,12 @@
 const Jimp = require('jimp');
 
 async function resizeImage(file) {
-    const fileName = file
     let image = await Jimp.read(file);
-    const resized = image.resize(150, 150);
-    currentDate = `${Date.now()}`;
-    let newPath = `processed/${fileName}_${currentDate}_150x150.png`;
-    await image.writeAsync(newPath);
+
+    image.resize(150, 150);
+    let processed = await image.writeAsync(`./processed/${file}`)
+    let newPath = `/processed/${file}`
+    console.log("this is the new path", newPath);
     return newPath
 }
 

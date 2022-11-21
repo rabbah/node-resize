@@ -1,0 +1,16 @@
+{
+  "name": "watermark-node",
+  "version": "1.0.0",
+  "description": "process images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Brian",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1246.0",
+    "dotenv": "^16.0.3",
+    "parted": "^0.1.1"
+  }
+}
